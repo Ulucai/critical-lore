@@ -1,0 +1,14 @@
+site_name: Carlos Batista
+markdown_extensions:
+  - toc:
+      permalink: false
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    scheme: slate  
+    primary: deep purple
+  features:
+    - header.autohide
+plugins:
+  - search
