@@ -1,0 +1,22 @@
+---
+ title: "Compêndio do Jogador"
+---
+### [Arcanas Místicas](compendio-do-jogador/9881faa9-b012-4159-9e8c-c0604b42729a.md)
+### [Armas de Fogo](compendio-do-jogador/d941f074-c302-4695-b76d-9157ae638476.md)
+### [Arquétipo Marcial: Atirador Arcano](compendio-do-jogador/4f27ce49-e743-4b3a-8b6a-643699eec34b.md)
+### [Bruxo, revisado](compendio-do-jogador/08c98a99-bf25-4639-99fb-29bff32bb2c7.md)
+### [Criação de Ficha](compendio-do-jogador/a14f59a0-9860-4fac-a52b-ebfa437a5bcc.md)
+### [Especialidade de Artifice: Necro-Alquimista](compendio-do-jogador/9e25638c-40aa-47d4-8f37-616988873ce9.md)
+### [Familiares e Montarias Divinas Expandidas](compendio-do-jogador/a04f0e0a-5bcc-4785-9243-a8b02daaa688.md)
+### [Feiticeiro: Listas de Magias Expandidas](compendio-do-jogador/e77cb4f6-7da1-4a2c-9cc8-338e4138cd42.md)
+### [Juramento de Paladino: Juramento da Morte](compendio-do-jogador/7209cdb9-72a0-461e-af30-a011fdb2fe29.md)
+### [Juramento de Paladino: Juramento do Mar Tempestuoso](compendio-do-jogador/fcf1dafb-1e6d-4e74-8cd0-4e937070218c.md)
+### [Marcas Ancestrais](compendio-do-jogador/ea355795-304e-474c-b13a-745dc302ff3b.md)
+### [Mudanças Gerais em Raças, Classes, Itens e Magias](compendio-do-jogador/c6ecca83-71b8-40c2-8c67-8ce02e04aa6b.md)
+### [Origem de Feitiçaria: Feitiçaria Boreal](compendio-do-jogador/26875920-5e24-4700-b02b-2511bc5896a6.md)
+### [Raça Expandida: Bullywug](compendio-do-jogador/df7cd7d9-e1b0-461c-9b5e-81151df74ba4.md)
+### [Raça Expandida: Gnoll](compendio-do-jogador/5189ea62-f53a-4da9-b316-1735c4254875.md)
+### [Raça Expandida: Povo Planta](compendio-do-jogador/1451645d-17d6-4202-aefe-1529c3a8f718.md)
+### [Talentos Expandidos](compendio-do-jogador/3c36169b-3aa5-4a55-9ab6-9e9905f809c0.md)
+### [Tradição Arcana: Magia dos Cosmos](compendio-do-jogador/630db2b8-75cc-4f6f-8cb9-9d6dca3b8ea0.md)
+### [Tradição de Monge: Monge dos Quatro Elementos](compendio-do-jogador/04267344-3089-43a5-8e46-153d1f259ae9.md)

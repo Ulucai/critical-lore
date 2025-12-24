@@ -1,5 +1,8 @@
 site_name: Carlos Batista
 markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
   - toc:
       permalink: false
 theme:
@@ -10,5 +13,9 @@ theme:
     primary: deep purple
   features:
     - header.autohide
+    - navigation.path
+    - navigation.indexes
+    - navigation.prune
+  custom_dir: overrides
 plugins:
-  - search
+  - search  

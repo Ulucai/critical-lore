@@ -1,0 +1,20 @@
+---
+ title: "Ascalon"
+---
+### [Academia Sol e Lua](mundo/ascalon/dcdc0c8d-a750-46d2-b5b4-46712944556b.md)
+### [Alabastrino](mundo/ascalon/3df34c94-f4fa-4119-a1d9-0a9a0c44af76.md)
+### [Ascalon](mundo/ascalon/9093576b-b25e-41c0-aecb-f22ba13ea830.md)
+### [Aurora](mundo/ascalon/68b3f14f-4280-4cc3-8980-91bcdda17976.md)
+### [Capital Dourada](mundo/ascalon/3082b976-f9f2-41ed-af5e-58f0f42680ab.md)
+### [Bosque Alto](mundo/ascalon/c962d973-993c-421a-99f5-497aab4f07a0.md)
+### [Borda Tempestuosa](mundo/ascalon/17824f5e-523a-4f8b-b6b8-6da8e5e04f3c.md)
+### [Forte Aureum](mundo/ascalon/0b46936d-be94-4fbe-a794-df36983a3271.md)
+### [Forte Boreal](mundo/ascalon/78e7a2bc-692f-4fa1-a148-51b6d73f1417.md)
+### [Forte Corvus](mundo/ascalon/85f3286f-8ee3-4dea-ac1c-0cd1ebf87ea9.md)
+### [Forte Exaltado](mundo/ascalon/0da1157e-58cb-4164-9ba1-b9bc8638f6e7.md)
+### [Luz Segura](mundo/ascalon/aef25dfb-c0ee-436e-b2d7-8de154465b7f.md)
+### [Monte Soberano](mundo/ascalon/e605b902-ce8f-42d7-bab2-f057222a7e86.md)
+### [Mosteiro da Alvorada](mundo/ascalon/e8d05705-11e2-457a-9540-96ac345621b1.md)
+### [Porto Salis](mundo/ascalon/6c1407fa-c75a-489a-a0e3-1207f96cf67e.md)
+### [Vila D’ouro](mundo/ascalon/2dad2a58-e13f-43fd-a0af-b8b332a612c8.md)
+### [Torre Férrea](mundo/ascalon/1792eedc-6e54-4de6-a84a-1140cd526985.md)
