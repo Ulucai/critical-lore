@@ -1,0 +1,1966 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../04267344-3089-43a5-8e46-153d1f259ae9/">
+      
+      
+        <link rel="next" href="../1451645d-17d6-4202-aefe-1529c3a8f718/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Bruxo, revisado - Pheros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bruxo-revisado" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Pheros" class="md-header__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pheros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bruxo, revisado
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Pheros" class="md-nav__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Pheros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pheros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../classes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compendio do jogador
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compendio do jogador
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04267344-3089-43a5-8e46-153d1f259ae9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tradição de Monge: Monge dos Quatro Elementos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bruxo, revisado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1451645d-17d6-4202-aefe-1529c3a8f718/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Povo Planta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26875920-5e24-4700-b02b-2511bc5896a6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Origem de Feitiçaria: Feitiçaria Boreal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3c36169b-3aa5-4a55-9ab6-9e9905f809c0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talentos Expandidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4f27ce49-e743-4b3a-8b6a-643699eec34b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquétipo Marcial: Atirador Arcano
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5189ea62-f53a-4da9-b316-1735c4254875/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Gnoll
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../630db2b8-75cc-4f6f-8cb9-9d6dca3b8ea0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tradição Arcana: Magia dos Cosmos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7209cdb9-72a0-461e-af30-a011fdb2fe29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Juramento de Paladino: Juramento da Morte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9e25638c-40aa-47d4-8f37-616988873ce9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especialidade de Artifice: Necro-Alquimista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a04f0e0a-5bcc-4785-9243-a8b02daaa688/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Familiares e Montarias Divinas Expandidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a14f59a0-9860-4fac-a52b-ebfa437a5bcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criação de Ficha
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c6ecca83-71b8-40c2-8c67-8ce02e04aa6b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mudanças Gerais em Raças, Classes, Itens e Magias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../d941f074-c302-4695-b76d-9157ae638476/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armas de Fogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../df7cd7d9-e1b0-461c-9b5e-81151df74ba4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Bullywug
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../e77cb4f6-7da1-4a2c-9cc8-338e4138cd42/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feiticeiro: Listas de Magias Expandidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ea355795-304e-474c-b13a-745dc302ff3b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marcas Ancestrais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fcf1dafb-1e6d-4e74-8cd0-4e937070218c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Juramento de Paladino: Juramento do Mar Tempestuoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../extra/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../mundo/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mundo
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../profissoes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profissoes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../racas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Racas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../regras/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Determine title -->
+
+
+
+<!-- Table of contents -->
+<nav class="md-nav md-nav--secondary" aria-label="Índice">    
+                
+  
+
+  <!--
+    Check whether the content starts with a level 1 headline. If it does, the
+    top-level anchor must be skipped, since it would be redundant to the link
+    to the current page that is located just above the anchor. Therefore we
+    directly continue with the children of the anchor.
+  -->
+  
+  
+    
+  
+
+  <!-- Table of contents title and list -->
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Pheros
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Compendio do jogador
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Bruxo, revisado" src="../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg" /></p>
+<h1 id="bruxo-revisado">Bruxo, revisado</h1>
+<h1 id="bruxo">Bruxo</h1>
+<p>Caminhando pela escuridão a figura de face pálida brinca com as sombras como se fossem parte de si, seu sorriso pálido carregam traços do além e sua aura mistérios que atravessam as covas, tal qual é a silhueta disforme feita em negra amálgama que segue seus passos.
+Sentado em meio aos doentes, o jovem de cabelos dourados toca os enfermos e lhes sussurra boas preces, essas não carregadas de religiosidade, mas sim de um carinho que emana de seu peito, ecoando o dom do celeste que lhe deu o poder de zelar pelos vivos.
+Atravessando um portal, o pequeno ser esverdeado é acompanhado de várias fadas, travessuras são o preço a ser pago pelo poder que lhe foi dado, e travessuras ao mundo ele trará, não pelo bem ou mal maior, mas apenas por ser a cláusula do contrato selado.</p>
+<p>Bruxos, um grupo de indivíduos da mais vasta gama e escolha de vida, alguns com intenções sombrias, outros carregadas de esperança, e ainda há aqueles cujos pactos foram dados pelo acaso ou por mera diversão dos Poderes que habitam o mundo.
+Membros dessa classe são capazes de convocar o poder de seus patronos e matronas, Poderes de outros planos, mas sempre com um preço a ser pago, pois as criaturas planares carregam desejos de difícil compreensão em muitos casos, podendo ser intrigas infernais, como é o caso dos arquiduques do inferno, a purificação do plano terreno, como muitos celestiais pregarão, o espalhar do caos para mero entretenimento, o que diverte as arquifadas, outras milhares intenções que dependerão de Poder para Poder.</p>
+<p>Se busca poder no desconhecido e misterioso, você busca usar as magias de pacto, as secretas invocações sobrenaturais e estilos de combate abençoadas pelos Poderes, o seu caminho está atrelado junto aos Bruxos.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Nível</strong></th>
+<th><strong>Característica de Classe</strong></th>
+<th><strong>Cantrips</strong></th>
+<th><strong>Conhecidas</strong></th>
+<th><strong>1º</strong></th>
+<th><strong>2º</strong></th>
+<th><strong>3º</strong></th>
+<th><strong>4º</strong></th>
+<th><strong>5º</strong></th>
+<th><strong>6º</strong></th>
+<th><strong>I.S.</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Conjuração de Pacto, Patrono Sobrenatural</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Invocações Sobrenaturais</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Dádiva do Pacto</td>
+<td>2</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Melhoria no Valor de Habilidade, Versatilidade Sobrenatural</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>-</td>
+<td>3</td>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Recurso de Patrono Sobrenatural</td>
+<td>3</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Recurso da Dádiva de Pacto</td>
+<td>3</td>
+<td>8</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>-</td>
+<td>-</td>
+<td>4</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Melhoria no Valor de Habilidade</td>
+<td>3</td>
+<td>9</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>-</td>
+<td>-</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>-</td>
+<td>3</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>-</td>
+<td>5</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Recurso de Patrono Sobrenatural</td>
+<td>4</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>-</td>
+<td>5</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Recurso da Dádiva de Pacto</td>
+<td>4</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Melhoria no Valor de Habilidade</td>
+<td>4</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Arcana Mística 7º</td>
+<td>4</td>
+<td>12</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Recurso de Patrono Sobrenatural</td>
+<td>4</td>
+<td>12</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Arcana Mística 8º</td>
+<td>4</td>
+<td>13</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Melhoria no Valor de Habilidade</td>
+<td>4</td>
+<td>13</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Arcana Mística 9º</td>
+<td>4</td>
+<td>14</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>18</td>
+<td>-</td>
+<td>4</td>
+<td>14</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>8</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Melhoria no Valor de Habilidade</td>
+<td>4</td>
+<td>15</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>8</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Mestre do Sobrenatural</td>
+<td>4</td>
+<td>15</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<h1 id="caracteristicas-de-classe">Características De Classe</h1>
+<p>Como um Bruxo, você ganha as seguintes características de classe.<br><br></p>
+<h3 id="hit-points">Hit Points</h3>
+<p><strong>Dados de Vida:</strong> 1d8 por Nível de Bruxo<br>
+<strong>Dados de Vida no Nível 1:</strong> 8 + Modificador de Constituição<br>
+<strong>Pontos de Vida em Níveis Superiores:</strong> 5 + Modificador de Constituição por nível de Bruxo após o 1º<br><br></p>
+<h3 id="proficiencias">Proficiências</h3>
+<p><strong>Armaduras:</strong> Armaduras Leves<br>
+<strong>Armas:</strong> Armas Simples<br>
+<strong>Ferramentas:</strong> Nenhuma<br>
+<strong>Testes de Resistência</strong>: Sabedoria e Carisma.<br>
+<strong>Perícias:</strong> Escolha duas entre Arcanismo, Enganação, História, Intimidação, Investigação, Natureza e Religião.<br><br></p>
+<h3 id="multiclasse">Multiclasse</h3>
+<p>Para fazer Multiclasse como Bruxo, você deve ter um mínimo de valor de atributo de Carisma 13.<br>
+<strong>Armaduras:</strong> Armaduras Leves.<br>
+<strong>Armas:</strong> Arma Simples.<br>
+<strong>Ferramentas:</strong> Nenhuma.<br>
+<strong>Conjuração:</strong> Para fins de calcular os espaços de magia, o warlock é considerado um conjurador completo.<br><br></p>
+<h3 id="equipamentos">Equipamentos</h3>
+<p>Você começa com os seguintes equipamentos, em adição aos recebidos por seu antecedente:<br>
+<strong>(a)</strong> uma besta leve e 20 virotes ou <strong>(b)</strong> qualquer arma simples;<br>
+<strong>(a)</strong> uma bolsa de componentes ou <strong>(b)</strong> um foco arcano;<br>
+<strong>(a)</strong> um pacote de estudioso ou <strong>(b)</strong> um pacote de explorador;<br>
+Armadura de couro, qualquer arma simples e duas adagas.<br><br></p>
+<h1 id="tracos-de-classe">Traços de Classe</h1>
+<h3 id="conjuracao-de-pacto">Conjuração de Pacto</h3>
+<p>Sua pesquisa arcana e a magia concedida a você por seu patrono deram a você facilidade com feitiços. Consulte o capítulo 10 para as regras gerais de conjuração e o capítulo 11 para a lista de magias de warlock.
+<br><br>
+<strong>Truques</strong><br> Você conhece dois truques à sua escolha da lista de feitiços do bruxo. Você aprende truques de Warlock adicionais de sua escolha em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela de Warlock.
+<br><br>
+<strong>Espaços de feitiço</strong><br> A tabela Warlock mostra quantos espaços de magia você tem para lançar suas magias de bruxo de 1º a 6º nível. A tabela também mostra qual é o nível desses slots. Para lançar uma de suas magias de bruxo de 1º nível ou superior, você deve gastar um espaço de magia. Você recupera todos os espaços de magia gastos quando termina um descanso longo.
+Por exemplo, se você conhece a magia raio da bruxa de 1º nível e tem um espaço de magia de 1º nível e um de 2º nível disponível, você pode usar qualquer um dos espaços.
+<br><br>
+<strong>Feitiços Conhecidos de 1º Nível e Superior</strong><br> No 1º nível, você conhece duas magias de 1º nível, à sua escolha, da lista de magias do bruxo.
+A coluna Magias Conhecidas da tabela Warlock mostra quando você aprende mais magias de warlock de sua escolha de 1º nível e superior. Uma magia que você escolher deve ser de um nível não superior ao que é mostrado na coluna Nível do Slot da tabela para o seu nível e nunca superior ao 6º nível. Ao atingir o 6º nível, por exemplo, você aprende uma nova magia de bruxo, que pode ser de 1º, 2º ou 3º nível.
+Além disso, quando você ganha um nível nesta classe, você pode escolher uma das magias de bruxo que você conhece e substituí-la por outra magia da lista de magias de warlock, que também deve ser de um nível para o qual você tenha espaços de magia.
+Habilidade de conjuração: Carisma é sua habilidade de conjuração para suas magias de warlock, então você usa seu Carisma sempre que uma magia se referir à sua habilidade de conjuração. Além disso, você usa seu modificador de Carisma ao definir a CD do teste de resistência para uma magia de warlock que você lançar e ao fazer uma jogada de ataque com uma.
+<br><br>
+<strong>CD do teste de magia</strong> = 8 + seu bônus de proficiência + seu modificador de Carisma<br>
+<strong>Modificador de ataque mágico</strong> = seu bônus de proficiência + seu modificador de Carisma<br>
+<strong>Foco de conjuração</strong> Você pode usar um foco arcano como um foco de conjuração para suas magias de warlock.<br>
+<br><br></p>
+<h3 id="patrono-sobrenatural">Patrono sobrenatural</h3>
+<p>No 1º nível, você fez uma barganha com um ser de outro mundo escolhido na lista de patronos disponíveis. Sua escolha concede recursos no 1º nível e novamente no 6º, 10º e 14º nível.
+<br></p>
+<h2 id="arquifadaseu-patrono-e-um-senhor-ou-senhora-das-fadas-uma-criatura-lendaria-que-guarda-segredos-que-foram-esquecidos-antes-do-nascimento-das-racas-mortais-as-motivacoes-desse-ser-sao-muitas-vezes-inescrutaveis-e-as-vezes-caprichosas-e-podem-envolver-uma-busca-por-maior-poder-magico-ou-o-acerto-de-rancores-antigos">Arquifada<br>Seu patrono é um senhor ou senhora das fadas, uma criatura lendária que guarda segredos que foram esquecidos antes do nascimento das raças mortais. As motivações desse ser são muitas vezes inescrutáveis e, às vezes, caprichosas, e podem envolver uma busca por maior poder mágico ou o acerto de rancores antigos.</h2>
+<p><br><br>
+<strong>Lista de Magia Expandida</strong><br>
+Seu patrono lhe confere o conhecimento de certos feitiços ligados à sua essência. Sempre que você atinge o nível necessário você passa a conhecer essas magias, que não contam no número de magias totais conhecidas da tabela de warlock. Quando você sobe de nível você pode trocar essas magias por outra magia da lista de druida de mesmo nível com a magia substituída.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1º</td>
+<td>faerie fire, sleep</td>
+</tr>
+<tr>
+<td>2º</td>
+<td>calm emotions, phantasmal force</td>
+</tr>
+<tr>
+<td>3º</td>
+<td>blink, summon fey</td>
+</tr>
+<tr>
+<td>4º</td>
+<td>conjure woodland beings, greater invisibility</td>
+</tr>
+<tr>
+<td>5º</td>
+<td>modify memory, seeming</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<strong>Presença Feérica</strong><br>
+começando o 1º nível, seu patrono lhe dá a habilidade de projetar a apaixonante e aterrorizante presença das fadas. Como uma ação bônus, você pode causar com que todas as criaturas à sua escolha, num cubo de 10 ft. que se origina em você, realizem um teste de resistência de sabedoria contra sua CD de magia de warlock. Numa falha a criatura fica encantada ou amedrontada por você (à sua escolha) até o final do seu próximo turno. Você pode usar essa ação um número de vezes igual a seu modificador de carisma, recuperando os usos após um descanso longo. </p>
+<p><strong>Risos e Dor</strong><br>
+Começando o 1º nível, o trato com seu patrono dá-lhe a habilidade tão ardilosa quanto brincalhona das fadas, usando de seus truques para beneficiar-se da desatenção de seus inimigos frente à sua presença. Uma vez por turno, quando você causa dano a uma criatura amedrontada ou encantada, você pode causar um dano psíquico extra equivalente a 1d6. 
+Esse dano aumenta para 1d8 no 6º nível, 1d10 no 10º nível e 1d12 no 14º nível.
+|arquifada</p>
+<h2 id="corruptorvoce-fez-um-pacto-com-um-corruptor-dos-planos-inferiores-uma-criatura-cuja-essencia-e-ideais-carregam-a-mais-pura-maldade-mesmo-que-voce-lute-para-nega-los-estes-sao-imutaveis-essas-criaturas-desejam-apenas-a-corrupcao-e-destruicao-da-existencia-incluindo-ate-mesmo-voce-no-grande-desfecho-corruptores-sao-poderosas-criaturas-incluindo-entre-os-patronos-as-presencas-de-lordes-demoniacos-arquediabos-e-outros-grandes-seres-de-cada-camada-dos-planos-inferiores">Corruptor<br>Você fez um pacto com um corruptor dos planos inferiores, uma criatura cuja essência e ideais carregam a mais pura maldade, mesmo que você lute para negá-los, estes são imutáveis. Essas criaturas desejam apenas a corrupção e destruição da existência, incluindo até mesmo você no grande desfecho. Corruptores são poderosas criaturas, incluindo entre os patronos as presenças de Lordes Demoníacos, Arquediabos, e outros grandes seres de cada camada dos planos inferiores.</h2>
+<p><br><br>
+<strong>Lista de Magia Expandida</strong><br>
+Seu patrono lhe confere o conhecimento de certos feitiços ligados à sua essência. Sempre que você atinge o nível necessário você passa a conhecer essas magias, que não contam no número de magias totais conhecidas da tabela de warlock. Quando você sobe de nível você pode trocar essas magias por outra magia da lista de mago de mesmo nível com a magia substituída e que sejam da escola de necromancia ou evocação</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1º</td>
+<td>burning hands, command</td>
+</tr>
+<tr>
+<td>2º</td>
+<td>blindness/deafness, scorching ray</td>
+</tr>
+<tr>
+<td>3º</td>
+<td>fireball, stinking cloud</td>
+</tr>
+<tr>
+<td>4º</td>
+<td>fire shield, wall of fire</td>
+</tr>
+<tr>
+<td>5º</td>
+<td>flame strike, hallow</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<strong>Bênçãos do Profano</strong><br>
+Começando o 1º nível, você pode dar a morte de seus inimigos em nome de seu patrono, sendo recompensado com vigor corrupto. Sempre que você reduzir uma criatura hostil a 0 pontos de vida, você recebe pontos de vida temporários igual a seu nível de warlock + seu modificador de carisma (mínimo de 1) 
+|Corruptor</p>
+<h2 id="celestialseu-patrono-e-uma-criatura-poderosa-dos-planos-superiores-voce-se-vinculou-a-um-ser-ancestral-das-camadas-tomadas-por-criaturas-cuja-essencia-ecoa-em-honras-bem-maiores-e-grandes-sacrificios-e-nobreza-seu-pacto-lhe-permite-vivenciar-os-caminhos-destas-criaturas-e-seu-toque-sagrado-e-iluminado-do-multiverso-estar-conectado-a-este-tipo-de-criatura-abala-e-pode-alterar-suas-crencas-e-comportamento-tanto-lhe-levando-a-uma-crenca-de-exterminio-dos-morto-vivos-repreensao-dos-corruptores-a-ate-se-tornar-um-martir-pelos-inocentes-contudo-por-mais-que-esses-ecos-de-seu-patrono-lhe-facam-almejar-os-paraisos-dos-planos-superiores-voce-possivelmente-sabe-que-sua-missao-esta-entre-os-mortais-para-que-no-fim-posso-ascender-ao-lado-de-seu-patrono-nos-campos-abencoados-mesmo-que-para-isso-tenha-de-desbravar-as-mais-escuras-terras-e-levar-luz-de-esperanca-a-elas">Celestial<br>Seu patrono é uma criatura poderosa dos planos superiores. Você se vinculou a um ser ancestral das camadas tomadas por criaturas cuja essência ecoa em honras, bem maiores e grandes sacrifícios e nobreza. Seu pacto lhe permite vivenciar os caminhos destas criaturas e seu toque sagrado e iluminado do multiverso. Estar conectado a este tipo de criatura abala e pode alterar suas crenças e comportamento, tanto lhe levando a uma crença de extermínio dos morto-vivos, repreensão dos corruptores a até se tornar um mártir pelos inocentes. Contudo, por mais que esses ecos de seu patrono lhe façam almejar os paraísos dos planos superiores, você possivelmente sabe que sua missão está entre os mortais, para que no fim posso ascender ao lado de seu patrono nos campos abençoados, mesmo que para isso tenha de desbravar as mais escuras terras e levar luz de esperança a elas.</h2>
+<p><br><br>
+<strong>Lista de Magia Expandida</strong><br>
+ Seu patrono lhe confere o conhecimento de certos feitiços ligados à sua essência. Sempre que você atinge o nível necessário você passa a conhecer essas magias, que não contam no número de magias totais conhecidas da tabela de warlock. Quando você sobe de nível você pode trocar essas magias por outra magia da lista de mago de mesmo nível com a magia substituída e que sejam da escola de abjuração ou evocação.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1º</td>
+<td>cure wounds, guiding bolt</td>
+</tr>
+<tr>
+<td>2º</td>
+<td>flaming sphere, lesser restoration</td>
+</tr>
+<tr>
+<td>3º</td>
+<td>daylight, revivify</td>
+</tr>
+<tr>
+<td>4º</td>
+<td>guardian of faith, wall of fire</td>
+</tr>
+<tr>
+<td>5º</td>
+<td>flame strike, greater restoration</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<strong>Enviado dos Divinos</strong><br>
+Começando o 1º nível, seu patrono lhe guia no domínio das artes divinas junto de seus poderes sobrenaturais. Você aprende os truques sacred flame e light. Eles contam como truques de warlock para você, mas não contam no número de truques conhecidos da tabela de warlock. Adicionalmente, do primeiro nível em diante, sempre que você aprender uma magia de 1º nível ou superior como warlock você pode optar por escolher uma magia de mesmo nível da lista de magias de clérigo. Magias aprendidas dessa forma se tornam magias de warlock para você.</p>
+<p><strong>Luz Restauradora</strong><br>
+Começando o 1º nível, você ganha a habilidade de conjurar a energia dos planos superiores para curar ferimentos. Você recebe um número de d6 igual a seu modificador de carisma + seu nível de warlock (mínimo de um dado), que servem de combustível para essa energia curativa. 
+Como uma ação bônus, você pode curar uma criatura que possa ver a até 60 ft. de você gastando esses dados. O máximo de dados de cura que você pode usar de uma vez é igual a seu modificador de carisma + seu valor de proficiência (mínimo de um dado). Role os dados, some o resultado e restaure o valor em pontos de vida da criatura alvo. 
+Você recupera todos os dados gastos quando finaliza um descanso longo.</p>
+<p>|Celestial</p>
+<h2 id="afogadovoce-se-afundou-em-pacto-com-as-profundezas-uma-entidade-que-habita-o-fundo-dos-oceanos-planos-elementais-tomados-por-agua-ou-qualquer-outro-sobrenatural-mar-inundado-de-poder-talassico-seu-pacto-foi-firmado-apenas-pela-curiosidade-de-conhecer-mais-sobre-a-terra-seca-ou-seu-patrono-almeja-abrir-portoes-que-afogaram-a-realidade-mortal-talvez-essa-duvida-seja-melhor-nao-ser-respondida-afinal-de-contas-voce-pode-estar-ligado-a-geracoes-de-cultistas-que-rogam-pela-ajuda-e-poder-das-criaturas-das-profundezas-ou-apenas-foi-a-unica-maneira-de-sobreviver-a-um-naufragio-onde-a-unica-saida-era-aceitar-o-agarrao-do-afogado-seja-qual-for-a-razao-voce-encontra-se-preso-ao-mar-e-suas-profundezas">Afogado<br>Você se afundou em pacto com as profundezas. Uma entidade que habita o fundo dos oceanos, planos elementais tomados por água, ou qualquer outro sobrenatural mar inundado de poder talássico. Seu pacto foi firmado apenas pela curiosidade de conhecer mais sobre a terra seca ou seu patrono almeja abrir portões que afogaram a realidade mortal? Talvez essa dúvida seja melhor não ser respondida, afinal de contas você pode estar ligado a gerações de cultistas que rogam pela ajuda e poder das criaturas das profundezas, ou apenas foi a única maneira de sobreviver a um naufrágio onde a única saída era aceitar o agarrão do Afogado. Seja qual for a razão, você encontra-se preso ao mar e suas profundezas.</h2>
+<p><br><br>
+<strong>Lista de Magia Expandida</strong><br>
+Seu patrono lhe confere o conhecimento de certos feitiços ligados à sua essência. Sempre que você atinge o nível necessário você passa a conhecer essas magias, que não contam no número de magias totais conhecidas da tabela de warlock. Quando você sobe de nível você pode trocar essas magias por outra magia da lista de mago de mesmo nível com a magia substituída e que sejam da escola de conjuração ou evocação.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1º</td>
+<td>create or destroy water, thunderwave</td>
+</tr>
+<tr>
+<td>2º</td>
+<td>gust of wind, silence</td>
+</tr>
+<tr>
+<td>3º</td>
+<td>lightning bolt, sleet storm</td>
+</tr>
+<tr>
+<td>4º</td>
+<td>control water, summon elemental (water only)</td>
+</tr>
+<tr>
+<td>5º</td>
+<td>Bigby’s hand (com aparência de um tentáculo), cone of cold</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<strong>Tentáculos das Profundezas</strong><br>
+Começando o 1º nível, seu patrono lhe confere o poder de convocar um fragmento de sua existência para afogar seus alvos. Como uma ação bônus, você cria um tentáculo com 10 ft de comprimento em um ponto a até 60 ft. que você possa ver. O tentáculo permanece por 1 minuto ou até você usar essa habilidade novamente para criar outro tentáculo.
+Quando você criar o tentáculo, você pode já realizar um ataque de magia corpo-a-corpo contra uma criatura a até 10 ft. do tentáculo. Num acerto, o alvo sofre 1d8 + seu modificador de carisma de dano congelante, e sua velocidade é reduzida em 10 ft. até o começo de seu próximo turno. Quando você alcança o 10º nível o dano sobe para 2d8.
+Como uma ação bônus em seu turno, você pode mover o tentáculo 30 ft. e repetir o ataque.
+Você pode convocar o tentáculo um número de vezes igual ao seu valor de proficiência </p>
+<p><strong>Dádiva do Oceano</strong><br>
+você recebe uma velocidade de nado de 40 ft., e você se torna capaz de respirar debaixo d’água.
+|Afogado</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "navigation.path", "navigation.indexes", "navigation.prune"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1600 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../a04f0e0a-5bcc-4785-9243-a8b02daaa688/">
+      
+      
+        <link rel="next" href="../c6ecca83-71b8-40c2-8c67-8ce02e04aa6b/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Criação de Ficha - Pheros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#criacao-de-ficha" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Pheros" class="md-header__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pheros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Criação de Ficha
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Pheros" class="md-nav__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Pheros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pheros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../classes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compendio do jogador
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compendio do jogador
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04267344-3089-43a5-8e46-153d1f259ae9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tradição de Monge: Monge dos Quatro Elementos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08c98a99-bf25-4639-99fb-29bff32bb2c7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bruxo, revisado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1451645d-17d6-4202-aefe-1529c3a8f718/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Povo Planta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26875920-5e24-4700-b02b-2511bc5896a6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Origem de Feitiçaria: Feitiçaria Boreal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3c36169b-3aa5-4a55-9ab6-9e9905f809c0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talentos Expandidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4f27ce49-e743-4b3a-8b6a-643699eec34b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquétipo Marcial: Atirador Arcano
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5189ea62-f53a-4da9-b316-1735c4254875/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Gnoll
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../630db2b8-75cc-4f6f-8cb9-9d6dca3b8ea0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tradição Arcana: Magia dos Cosmos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7209cdb9-72a0-461e-af30-a011fdb2fe29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Juramento de Paladino: Juramento da Morte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9e25638c-40aa-47d4-8f37-616988873ce9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especialidade de Artifice: Necro-Alquimista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a04f0e0a-5bcc-4785-9243-a8b02daaa688/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Familiares e Montarias Divinas Expandidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criação de Ficha
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c6ecca83-71b8-40c2-8c67-8ce02e04aa6b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mudanças Gerais em Raças, Classes, Itens e Magias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../d941f074-c302-4695-b76d-9157ae638476/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armas de Fogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../df7cd7d9-e1b0-461c-9b5e-81151df74ba4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raça Expandida: Bullywug
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../e77cb4f6-7da1-4a2c-9cc8-338e4138cd42/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feiticeiro: Listas de Magias Expandidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ea355795-304e-474c-b13a-745dc302ff3b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marcas Ancestrais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fcf1dafb-1e6d-4e74-8cd0-4e937070218c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Juramento de Paladino: Juramento do Mar Tempestuoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../extra/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../mundo/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mundo
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../profissoes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profissoes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../racas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Racas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../regras/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Determine title -->
+
+
+
+<!-- Table of contents -->
+<nav class="md-nav md-nav--secondary" aria-label="Índice">    
+                
+  
+
+  <!--
+    Check whether the content starts with a level 1 headline. If it does, the
+    top-level anchor must be skipped, since it would be redundant to the link
+    to the current page that is located just above the anchor. Therefore we
+    directly continue with the children of the anchor.
+  -->
+  
+  
+    
+  
+
+  <!-- Table of contents title and list -->
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Pheros
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Compendio do jogador
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Criação de Ficha" src="../../img/80b91232cef18dd65e0f6ba808313e96.jpg" /></p>
+<h1 id="criacao-de-ficha">Criação de Ficha</h1>
+<p>A criação de uma nova ficha em nosso servidor de RPG é simples e fácil de ser realizada. Para começar, basta marcar um arquivista, que é um membro da nossa equipe especialmente treinado para ajudar os jogadores na criação de suas fichas.</p>
+<p>O arquivista irá lhe guiar e explicar como funciona o nosso sistema, além de ajudá-lo a encontrar qualquer informação necessária para a criação da sua ficha. Ele também irá ajudá-lo a entender as mecânicas do sistema de RPG D&amp;D 5e, caso seja necessário.</p>
+<p>A primeira etapa da criação da ficha será a criação de seu LOG, que é uma ficha de RPG online exclusiva e única para cada personagem. Esse será o registro utilizado para acompanhar o desenvolvimento do seu personagem durante todo seu caminho no jogo.</p>
+<p>Em seguida, o arquivista irá lhe ajudar a criar uma ficha no Roll 20, que é uma cópia do seu LOG que pode ser utilizada para jogar ao vivo na mesa de qualquer mestre. Dessa forma, você estará pronto para começar suas aventuras com todas as informações necessárias em mãos.</p>
+<p>Após a criação da sua ficha, você receberá o rank de @Capa Gris, que é o rank mais baixo de aventureiro na nossa guilda, a <a href="../../mundo/rubria/762967e0-2586-466f-a3ee-3c75ad65541c/">Guilda da Aliança de Prata</a>. E assim, você poderá começar suas aventuras e desbravar mundos incríveis, enfrentar desafios e evoluir seu personagem.</p>
+<h1 id="alteracoes-mecanicas-e-homebrews">Alterações Mecânicas e Homebrews</h1>
+<p>Alterações em mecânicas gerais, classes, raças, itens e magias podem ser encontradas no artigo abaixo:</p>
+<p>[articleblock:c6ecca83-71b8-40c2-8c67-8ce02e04aa6b]</p>
+<h1 id="como-criar-sua-ficha-de-dd-5e">Como Criar sua Ficha de D&amp;D 5e</h1>
+<h4 id="observacao-importante">Observação Importante!</h4>
+<div class="admonition info">
+<p>Aqui no Critical Bastards, todo personagem já começa no nível 3.</p>
+</div>
+<h4 id="passo-1-escolha-a-raca-classe-e-crie-a-historia-de-seu-personagem">Passo 1: Escolha a raça, classe e crie a história de seu personagem</h4>
+<p>Antes de começar a jogar, você precisa escolher algumas coisas sobre o seu personagem. Você precisa decidir a raça, classe e história do seu personagem.</p>
+<p><strong>Raça:</strong> a raça é como você quer que seu personagem pareça e o que ele é capaz de fazer. Cada raça tem algumas características especiais, como força, skills e idiomas. Leia sobre as raças disponíveis para escolher a que você quer jogar.</p>
+<p><strong>Classe:</strong>a classe vai determinar como seu personagem funciona. Cada classe tem skills especiais que o personagem pode realizar. Escolha uma classe que você acha interessante e que você quer jogar.</p>
+<p><strong>História:</strong> A história de seu personagem é um pequeno ou grande texto que conta o passado de seu personagem pelo mundo até a inscrição na guilda. Além disso, sempre lembre se que o servidor trabalha com um cenário próprio e ele deve ser usado e respeitado.</p>
+<p>Por questões principiológicas, o personagem necessita não só ser maior de idade como ter aparência condizente com um adulto ou jovem adulto.</p>
+<h4 id="passo-2-blocos-de-status">Passo 2: Blocos de Status</h4>
+<p>O bloco de status é onde você registra as informações importantes sobre o seu personagem. Ele inclui suas pontuações de skill, modificadores de skill e proficiências.</p>
+<p><strong>Pontuações de skill:</strong>
+As pontuações de skill representam as skills do seu personagem em diferentes áreas, como força ou inteligência. Você pode determiná-los a partir da <a href="https://5e.tools/statgen.html#pointbuy">compra de pontos</a> </p>
+<p><strong>Modificador de skill:</strong></p>
+<p>O Modificador de skill é um número que você usa para ajustar o resultado de um teste de skill. Por exemplo, se seu modificador de skill para uma determinada skill é +2, você adiciona +2 ao resultado de um teste de skill com essa skill.</p>
+<h4 id="passo-3-proficiencias-e-idiomas">Passo 3: Proficiências e idiomas</h4>
+<p><strong>Proficiências:</strong>
+As proficiências são skills ou itens que o seu personagem pode usar sem sofrer nenhuma penalidade. Isso inclui coisas como armaduras, armas ou kits de sobrevivência. Anote todas as proficiências do seu personagem e quaisquer bônus que eles tenham com essas skills ou itens.</p>
+<p><strong>Idiomas:</strong>
+Verifique tanto a raça quanto o background do seu personagem para ver quais idiomas ele pode falar. Anote todas as idiomas conhecidas pelo seu personagem na sua ficha.</p>
+<h4 id="passo-4-equipamentos">Passo 4: Equipamentos</h4>
+<p>Seus equipamentos são todos os itens que você está levando com você, como armadura, armas, equipamentos de viagem e de exploração, entre outros. Há duas maneiras de criar seu inventário inicial:</p>
+<p><strong>Itens Iniciais:</strong> A classe de seu personagem tem uma lista de itens que você pode começar a usar. Seu background também pode adicionar mais itens à sua lista.</p>
+<p><strong>Itens Comprados:</strong>Com base em sua classe, você pode usar o ouro inicial para comprar qualquer equipamento que desejar. O valor inicial de ouro é 125 PO para todas as classes.</p>
+<h4 id="passo-5-antecedente">Passo 5: Antecedente</h4>
+<p>Os antecedentes como o próprio nome diz são pequenas informações de seu passado que se atrelam aos seus antigos e até mesmo atuais afazeres. Um exemplo seria um personagem que trabalhava na segurança de uma cidade e que possui um antecedente de soldado. Por fim, os antecedentes também lhe concedem alguns benefícios, como:</p>
+<p><strong>Proficiência em Perícias:</strong> Escolha proficiência em duas perícias de sua escolha que se adequem a ideia de seu personagem.</p>
+<p><strong>Feature de Background:</strong> Cada antecedente possui uma pequena habilidade que o acompanha para facilitar a vida de seu personagem em algumas situações especificas.</p>
+<p><strong>Além disso, esses feats disponibilizados com o Backgrounds NÃO fornecem aumento de atributo</strong>.</p>
+<p><strong>Proficiência em Ferramentas e Idiomas:</strong> Nem todos os backgrounds oferecem esse pequeno bônus, mas alguns lhe concedem o poder de escolher a proficiência em uma ferramenta ou língua das citadas no próprio antecedente.</p>
+<p><strong>Equipamentos:</strong> Como citado no passo 4, antecedentes concedem itens iniciais extras ao seu personagem sendo alguns obrigatórios e outros escolhas entre opções.</p>
+<p><strong>Talentos:</strong> Um bônus que libera novas ações ou habilidades para o seu personagem, alguns backgrounds já possuem talentos prefixos como dos livros Astral Adventurer's Guide, Strixhaven, Dragonlance e Ravnica. Apesar disso, não se desespere caso o seu antecedente não lhe conceda um de imediato porque em casos como esse você pode escolher um da seguinte lista:</p>
+<ul>
+<li>Aberrant Dragonmark</li>
+<li>Actor</li>
+<li>Artificer Initiate**</li>
+<li>Athlete</li>
+<li>Chef</li>
+<li>Dungeon Delver</li>
+<li>Durable</li>
+<li>Eldritch Adept</li>
+<li>Elemental Adept</li>
+<li>Fey Touched</li>
+<li>Fighting Initiate</li>
+<li>Gift of the Chromatic Dragon </li>
+<li>Gift of the Gem Dragon </li>
+<li>Gift of the Metallic Dragon </li>
+<li>Healer</li>
+<li>Heavily Armored</li>
+<li>Keen Mind</li>
+<li>Lightly Armored</li>
+<li>Linguist</li>
+<li>Magic Initiate</li>
+<li>Martial Adept</li>
+<li>Metamagic Adept</li>
+<li>Moderately Armored</li>
+<li>Poisoner</li>
+<li>Ritual Caster</li>
+<li>Shadow Touched</li>
+<li>Skilled</li>
+<li>Spell Sniper</li>
+<li>Tavern Brawler</li>
+<li>Telekinetic</li>
+<li>Telepathic</li>
+<li>Weapon Master</li>
+<li>Magia Ancestral do Gelo</li>
+<li>Magia Ancestral de Fogo</li>
+<li>Magia Ancestral das Tempestades</li>
+<li>Magia Ancestral de Pedra</li>
+</ul>
+<div class="admonition info">
+<p>O antecendente Wildspacer do livro Astral Adventurer's Guide <strong>NÃO</strong> é permitido.</p>
+</div>
+<p>-** O Feat Artificer Initiate foi modificado deixando de dar uma cantrip e passando a dar uma infusão de Artificer para o personagem. O nível base do jogador não conta para evoluir a infusão, apenas o nível de artificer no caso do personagem possuir aquela classe.</p>
+<p>Quando um personagem atingir level 9, ele poderá escolher, gratuitamente, <strong>qualquer</strong> Talento, sem as restrições acima impostas.</p>
+<h4 id="passo-6-ataques-e-lancamento-de-feiticos">Passo 6: Ataques e Lançamento de Feitiços</h4>
+<p>Na luta, a maioria dos personagens usa ataques físicos ou lança feitiços. Além disso, eles também têm acesso a ações especiais.</p>
+<p><strong>Modificador de Ataque:</strong>Este é o número que você adiciona a um dado de 20 lados ao tentar atacar alguém com uma arma. Você compara o número final ao AC do alvo e atinge se o seu número for igual ou maior que o AC do inimigo.</p>
+<p><strong>Como calcular o Modificador de Ataque:</strong></p>
+<ul>
+<li>Para armas de alcance com proficiência: Adicione seu modificador de destreza ao seu modificador de proficiência.</li>
+<li>Para armas de alcance sem proficiência: Adicione apenas seu modificador de Destreza.</li>
+<li>Para armas de mão com proficiência: Adicione seu modificador de Força ao seu modificador de proficiência.</li>
+<li>Para armas de mão sem proficiência: Adicione apenas seu modificador de Força.</li>
+<li>Para armas que permitem escolher entre Força e Destreza: Escolha a skill que preferir. Adicione seu modificador de proficiência se você for hábil com a arma.</li>
+<li>Iniciativa: A iniciativa é a sua capacidade de agir rapidamente em situações perigosas. Para determinar a iniciativa, você rola um d20 e adiciona seu modificador de iniciativa. O modificador de iniciativa é o mesmo que o seu modificador de Destreza.</li>
+</ul>
+<h4 id="mudancas-de-atributos-e-proficiencias-do-tashas-cauldron-of-everything">Mudanças de Atributos e proficiências do <em>Tasha's Cauldron of Everything</em></h4>
+<p>Caso deseje, o jogador pode escolher seguir as regras de mudança de atributo e proficiências dadas pela raça do personagem do livro <em>Tasha's Cauldron of Everything.</em> Para que essas mudanças de fato ocorram deve-se deixar explicito ao Recrutador responsável por sua ficha quais atributos e proficiências foram trocadas.</p>
+<table>
+<thead>
+<tr>
+<th>Proficiência</th>
+<th>Reajuste Proficiência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perícia</td>
+<td>Perícia</td>
+</tr>
+<tr>
+<td>Armadura</td>
+<td>Arma Simples, Marcial ou Ferramenta</td>
+</tr>
+<tr>
+<td>Arma Simples</td>
+<td>Arma Simples ou Ferramenta</td>
+</tr>
+<tr>
+<td>Arma Marcial</td>
+<td>Arma Simples, Marcial ou Ferramenta</td>
+</tr>
+<tr>
+<td>Ferramenta</td>
+<td>Arma Simples ou Ferramenta</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "navigation.path", "navigation.indexes", "navigation.prune"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
