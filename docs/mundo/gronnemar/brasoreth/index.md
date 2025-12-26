@@ -1,4 +1,4 @@
 ---
  title: "Brasoreth"
 ---
-### [Brasoreth](mundo/gronnemar/brasoreth/b3167ff3-0946-4ca5-bfaf-a988ee4f0329.md)
+### [Brasoreth](b3167ff3-0946-4ca5-bfaf-a988ee4f0329.md)
