@@ -13,7 +13,7 @@ sidebar_custom: |
   <div style="text-align:left;">123.123</div>
 ---
 
-![Forte Corvus](../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
+![Forte Corvus](../../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
 
 # Forte Corvus
 
@@ -23,7 +23,7 @@ O Forte Corvus, nomeado em honra aos guerreiros que vivem nas sombras para prote
 
 ### Descrição Visual:
 
-[unknown (99).png](../../img/fe14bb5905e2661112f1e2ac596617dd.png)|Forte Corvus
+[unknown (99).png](../../../img/fe14bb5905e2661112f1e2ac596617dd.png)|Forte Corvus
 
 Praticamente caindo aos pedaços, o Forte Corvus é o completo oposto do Forte Aureum. Suas muralhas foram construídas com pedras negras que se desgastaram com o tempo. As torres, altas construções há anos em desuso, estão cobertas de musgos e trepadeiras, com seu interior completamente abandonado. Está sempre nevando em Forte Corvus e a luz do sol é rara durante o dia inteiro.
 <br>
