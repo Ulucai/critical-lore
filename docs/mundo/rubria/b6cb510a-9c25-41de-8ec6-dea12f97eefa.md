@@ -13,7 +13,7 @@ sidebar_custom: |
   <div style="text-align:left;">500</div>
 ---
 
-![Vila Recanto](../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
+![Vila Recanto](../../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
 
 # Vila Recanto
 
@@ -21,7 +21,7 @@ sidebar_custom: |
 A Vila Recanto é um pequeno assentamento construído a sul de Rúbria, para além do Portão do Vale e nas proximidades da Floresta de Canis. O lugar é amplamente conhecido por suas tavernas e estalagens, tornando-se um ponto obrigatório para a maioria dos viajantes.
 <br>
 ### Descrição Visual:
-[unknown (15).png](../../img/7cde43f3d5cad67373408ed6989588af.png) |Vila Recanto
+[unknown (15).png](../../../img/7cde43f3d5cad67373408ed6989588af.png) |Vila Recanto
 
 Construída nas proximidades de uma floresta, a Vila Recanto é um lugar simples que se destaca por sua ótima hospitalidade. Estalagens, casas de fazenda e pequenos santuários aos que se dedicam à fé compõem boa parte das construções de Vila Recanto. Apesar de não possuir muralhas, a Vila Recanto conta com o auxílio de torres de vigília construídas com madeira que são guardadas pelos Mantos Castanhos e pelo Chifre Rubro.
 <br>
@@ -66,7 +66,7 @@ Bandidos costumam se esconder nas florestas e montanhas da região. A Vila Recan
 **Barril do Barrigudo:** O Barril do Barrigudo é uma das melhores, se não a melhor, taverna da Vila Recanto. As bebidas servidas no Barril do Barrigudo são fortes e de ótima qualidade. A receita da cerveja da casa é um mérito do criador da taverna, um homem enorme que carregava seu barril de cerveja de um lado para o outro.
 <br>
 # NPCs Relevantes
-[Fernando_Anxious_Red_Hair_Male_Halfling_Fantasy_Art_fe978fd4-1607-4776-9496-0f8987dd6b09.png](../../img/d17229980243e5c148902cecaaa6272c.png) | Bernardo Ruivo-Alto
+[Fernando_Anxious_Red_Hair_Male_Halfling_Fantasy_Art_fe978fd4-1607-4776-9496-0f8987dd6b09.png](../../../img/d17229980243e5c148902cecaaa6272c.png) | Bernardo Ruivo-Alto
 
 Bernardo Ruivo-Alto, o Prefeito: Bernardo é o atual prefeito de Vila Recanto. Um halfling pequeno até para os padrões de sua raça que parece não ter um momento de paz devido ao seu trabalho. Bernardo frequentemente está lidando com a economia de Vila Recanto, ficando sempre ansioso quando algo está fora das expectativas.
 <br>

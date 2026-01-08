@@ -13,7 +13,7 @@ sidebar_custom: |
   <div style="text-align:left;">100</div>
 ---
 
-![Forte Nebuloso](../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
+![Forte Nebuloso](../../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
 
 # Forte Nebuloso
 
@@ -21,7 +21,7 @@ sidebar_custom: |
 O Forte Nebuloso é o lar dos Mantos Castanhos, um grupo de guardiões que patrulha as proximidades do bosque, das montanhas e das estradas de Rúbria. Fixados no centro do Bosque do Tronco Nebuloso, esses guardiões encontram com facilidade seu caminho durante a noite.
 <br>
 ### Descrição Visual:
-[36b9c162bd852379459239eafe78d123.jpg](../../img/bfefd465a4c8b5fe60e868f7c762810a.jpg)|Forte Nebuloso
+[36b9c162bd852379459239eafe78d123.jpg](../../../img/bfefd465a4c8b5fe60e868f7c762810a.jpg)|Forte Nebuloso
 
 O forte dos Mantos Castanhos pode ser encontrado dentro do Bosque do Tronco Nebuloso, elevado em colinas cobertas pela névoa. Trilhas de cabra conhecidas principalmente pelos patrulheiros fazem o caminho para o forte, com apenas algumas poucas passagens (túneis e cavernas) alternativas escondidas. O Forte Nebuloso foi construído com pedras negras que trazem um aspecto sombrio a sua aparência, no entanto, o lugar não está abandonado de forma alguma.
 <br>
@@ -41,7 +41,7 @@ Os patrulheiros não se importam de guiar um viajante perdido para a direção c
 Lidar com bandidos é o cotidiano dos Mantos Castanhos, não chegando a ser realmente um problema. Todavia, existe uma criatura que traz problemas aos patrulheiros. Um lobo gigante apelidado de Fenris que já matou muitos viajantes perdidos e alguns patrulheiros. A besta possui uma força sobre humana e tem se mostrado um verdadeiro desafio aos Mantos Castanhos nos últimos anos. A criatura sempre está acompanhada de sua alcateia.
 <br>
 # NPCs Presentes
-[7fa9b92fbd1d35b22dde2eb5e2c4c918.jpg](../../img/7617198f2c6fcb0d1fc7b9ae722affb3.jpg)|Dunedan Poucos-Dedos
+[7fa9b92fbd1d35b22dde2eb5e2c4c918.jpg](../../../img/7617198f2c6fcb0d1fc7b9ae722affb3.jpg)|Dunedan Poucos-Dedos
 
 **Dunedan Poucos-Dedos**: Dunedan é o Comandante-Patrulheiro dos Mantos Castanhos. Um homem que serve ao Forte Nebuloso desde a sua juventude. Dunedan perdeu metade da sua mão direita, sua mão da espada, para o lobo Fenris, mas se tornou tão bom com a mão esquerda que pôde transformá-la em sua nova mão da espada.
 <br>

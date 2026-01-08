@@ -13,7 +13,7 @@ sidebar_custom: |
   <div style="text-align:left;">135.000</div>
 ---
 
-![Raegnest](../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
+![Raegnest](../../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg)
 
 # Raegnest
 
@@ -28,7 +28,7 @@ Raegnest é localizada em uma enorme caverna com formato similar ao de um corpo 
 Raegnest é localizada em uma enorme caverna com formato similar ao de um corpo de aranha, com cerca de três quilômetros de largura e trezentos metros de altura. Os drows chamam a caverna de Arachousltur. A cidade foi esculpida principalmente em calcita e é iluminada com diversas tochas de fogo azul, verde e violeta das fadas. Os edifícios são muitas vezes cobertos com símbolos e adornos para a principal religião da cidade: a aranha, em homenagem à Arachne. Os telhados de Raegnest são cobertos de caminhos, para com que a guarda da cidade possa se mover livremente por terrenos elevados. Algumas casas, mas especificamente aquelas do distrito nobre, ficam a 300 metros acima do solo. Estas são imbuídas com magia para evitar que caiam no restante da cidade. Um encantamento na caverna da cidade reduziu os ecos de todo o barulho, tornando a cidade estranhamente silenciosa, devido à natureza mais introvertida da maioria dos Drows. Há um número fixo de edifícios em Raegnest, o que significa que as áreas mais pobres, que não possuem tal limite, são extremamente lotadas. Casas nobres, uma vez destruídas ou abandonadas, só podem ser reocupadas com enormes procedimentos burocráticos, o que significa que há em algumas áreas, alguns complexos abandonados tanto na superfície quanto no teto da caverna da cidade. A cidade tem cerca de quatro enormes portões, todos muito bem guardados. Esses portões conduzem a uma miríade de túneis que cercam a cidade (chamados coletivamente de Bauthwaf), onde caso os Drows detectem a presença de um invasor tentando se infiltrar na cidade, eles utilizam de seu conhecimento geográfico dos mesmos para armarem emboscadas e capturarem-no, vivo ou morto. Uma das estruturas mais distintas da cidade é a Torre de Felandris, onde a elite da guarda dos Drows se encontra. Lá, há os Inquisidores de Arachne, ouvindo seu chamado e caçando aqueles que ousam se opor à sociedade Drow e à Arachne, mais especificamente, seguidores de Sulahn. É comum encontrar grupos de patrulha dos Inquisidores por toda Underdark, buscando expandir ainda mais o domínio de seus deuses nefastos. A Torre é encantada todas as manhãs pelos magos de Raegnest com um brilho arroxeado que lentamente se dissipa com o passar da semana. A Torre de Felandris pode ser vista de toda a cidade e quando a mesma perde completamente seu brilho, tornando-se escura, é quando ocorre o chamado Tempo da Inquisição, onde patrulhas de Inquisidores são despachadas para o Underdark. (Efetivamente meia-noite no início de toda semana.) A cidade também é envolta por Faerzress, uma radiação mágica do Underdark que impede magias de advinhação e conjuração afetarem a cidade. 
 <br>
 
-[Raegnest.png](../../img/c77c3c0b97dcbc10f7b969cebf87f98d.png)|Raegnest 
+[Raegnest.png](../../../img/c77c3c0b97dcbc10f7b969cebf87f98d.png)|Raegnest 
 <br>
 
 # Sociedade
@@ -83,16 +83,16 @@ Raegnest é guardada por enormes construções mágicas de aranhas de jade. As c
 **Qu'ellarz'orl (Distrito Nobre):**Este planalto é localizado no canto sudoeste da cidade é separado do resto da mesma por uma floresta de cogumelos gigantes. Ao contrário do restante da cidade, o Qu'ellarz'orl é espaçoso e vazio. Não há multidões, nem negócios. O espaço ocupado é dominado pelas casas nobres mais poderosas, e seus soldados e serviçais: Casa Do´urn, Casa Mizzrym, Casa Mytlar, e Casa Vragon.
 <br>
 
-[Raegnest.jpg](../../img/d16eb07ffa2c5ce11b908fe4afd8c565.jpg)|Palácio de Arachne <br>
+[Raegnest.jpg](../../../img/d16eb07ffa2c5ce11b908fe4afd8c565.jpg)|Palácio de Arachne <br>
 **Palácio de Arachne:**O Palácio de Arachne é onde o Conselho das Aranhas se encontra, sempre tramando o próximo passo da cidade e onde a maior concentração de guardas da cidade se encontra. <br>
 
 
 # NPCs Relevantes
-[Raegnest - Yvonnel Do´urn.jpg](../../img/190ec4168b9e2d6c04f7bd962477510c.jpg) | Yvonnel Do´urn <br>
+[Raegnest - Yvonnel Do´urn.jpg](../../../img/190ec4168b9e2d6c04f7bd962477510c.jpg) | Yvonnel Do´urn <br>
 **Yvonnel Do´urn:**Matrona da Cada Do´urn e atual membro do Conselho das Aranhas. É possivelmente a pessoa mais influente de toda Raegnest a membro mais poderosa do Conselho. É uma mulher séria e cujos pensamentos nunca podem ser lidos. Ela possui um certo desdém com aqueles da superfície, mas ainda os acolhe em sua cidade. Após assumir o cargo de membro Conselho, foi graças às suas artimanhas, que alguns Drows finalmente conseguiram se infiltrar em Duerkulstulgh, mas o Rei Blackstone se provou um adversário digno para a Matrona. 
 <br>
 
-[Raegnest - Os Gêmeos Faerzress.jpg](../../img/8af3c099a484f76854fca8a23d1c04b5.jpg) | Os Gêmeos Faerzress <br>
+[Raegnest - Os Gêmeos Faerzress.jpg](../../../img/8af3c099a484f76854fca8a23d1c04b5.jpg) | Os Gêmeos Faerzress <br>
 **Os Gêmeos Faerzress:**Possuem esse nome, pois tal qual a radiação mágica que habita o Underdark, estes dois são tão imprevisíveis quanto. Ninguém sabe de fato o nome verdadeiro dos irmãos, mas sabem que eles são os melhores mercenários não somente de Raegnest, como também de talvez toda Underdark. Contudo, eles não possuem um contrato com o Conselho das Aranhas, o que faz com que os gêmeos sejam algumas vezes mal vistos por outros Drows, apesar de que o resultado de seus trabalhos muitas vezes, fala mais alto.
 
 # Origem
