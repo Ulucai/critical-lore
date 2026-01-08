@@ -1,0 +1,2570 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../cb509a55-de11-4a8d-a3fd-d4843b94a1d0/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Skord - Pheros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#skord" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Pheros" class="md-header__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pheros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Skord
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Pheros" class="md-nav__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Pheros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pheros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../classes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../compendio-do-jogador/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compendio do jogador
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../extra/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mundo
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mundo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../a-m-caelora/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A m caelora
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../ascalon/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ascalon
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../brumas-draconicas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brumas draconicas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../concordia/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concordia
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../delphos/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Delphos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../estradas-subterraneas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estradas subterraneas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../gronnemar/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gronnemar
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../ilha-dos-ecos/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ilha dos ecos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../mothrummrol/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mothrummrol
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../mystiria/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mystiria
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../nethE28099hare/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    nethE28099hare
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../organizacoes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organizacoes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../os-ermos-gelidos/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Os ermos gelidos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../os-pantanos-sem-fim/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Os pantanos sem fim
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../paraiso-verdejante-de-toxi-raxh/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paraiso verdejante de toxi raxh
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../planos/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planos
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../porto-tempestade/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Porto tempestade
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../rubria/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rubria
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_20" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skord
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_20" id="__nav_5_20_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_20_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_20">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Skord
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cb509a55-de11-4a8d-a3fd-d4843b94a1d0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Helligaske
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../stylia/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stylia
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../terras-sombrias/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terras sombrias
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../turgon/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Turgon
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../panteao/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../profissoes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profissoes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../racas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Racas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../regras/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Determine title -->
+
+
+
+<!-- Table of contents -->
+<nav class="md-nav md-nav--secondary" aria-label="Índice">    
+                
+  
+
+  <!--
+    Check whether the content starts with a level 1 headline. If it does, the
+    top-level anchor must be skipped, since it would be redundant to the link
+    to the current page that is located just above the anchor. Therefore we
+    directly continue with the children of the anchor.
+  -->
+  
+  
+    
+  
+
+  <!-- Table of contents title and list -->
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Pheros
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Mundo
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Skord
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Skord" src="../../../img/8396f9dd36b513e3136920c1d75b128d.jpg" /></p>
+<h1 id="skord">Skord</h1>
+<h1 id="descricao">Descrição</h1>
+<p>Skord, um reino distante ao norte, frio e lar de temíveis guerreiros, é um lugar onde é necessário ser forte até para viver. Os bárbaros nortenhos de Skord são conhecidos por serem saqueadores e guerreiros de enorme força, homens e mulheres dispostos a lutar para viver mais um dia. Skord muitas vezes é visto como uma região de selvagens, no entanto, seu senso de honra e sua tradição é muito mais do que os olhos podem ver e é compreendido normalmente apenas por seus habitantes.
+<br></p>
+<h3 id="geografia">Geografia:</h3>
+<p>Localizado ao extremo nordeste do continente, Skord é uma terra congelada e montanhosa, com uma população frequentemente vivendo na costa. O frio é uma certeza durante o ano inteiro, mesmo após o fim do inverno (que costuma ser extremamente cruel). Em regiões mais ao norte, é possível encontrar neve o ano inteiro.
+<br></p>
+<h1 id="sociedade">Sociedade</h1>
+<p><br></p>
+<h3 id="populacao">População:</h3>
+<p>Os humanos são a raça predominante em Skord, embora existam outros que se destacam na região, como é o caso dos Orcs e dos Golias.
+<br></p>
+<h3 id="cultura">Cultura:</h3>
+<p>A cultura de Skord foi fortemente influenciada pelos antigos gigantes e seus deuses. Diante de uma criatura de tamanha força e estatura, os skordianos perceberam que precisavam se esforçar o dobro para assegurar sua posição em uma batalha. Desde os primórdios de sua existência, a coragem sempre esteve presente no povo skordiano.</p>
+<p>Foram com as runas de Sig’hor (o deus patrono dos gigantes) que os skordianos conectaram-se à natureza que os cercava. Com o simples poder das palavras, um homem era capaz de invocar o nome do fogo para aquecê-lo em uma noite fria de inverno, ou, em outros casos, usar relâmpagos como arma. O estudo das runas revelou muito da sabedoria dos gigantes para o povo skordiano, e mesmo após tantos milênios terem se passado, os homens continuam estudando e aprendendo o significado da herança de Sig’hor. Em Skord, as runas possuem muitos significados, mas todas estão conectadas de alguma maneira à natureza. Para os skordianos, as runas estão em todas as partes do mundo.</p>
+<p>Os skordianos veneram todos os deuses gigantes e acreditam que cada um possui um propósito e significado no mundo. E além dos gigantes, os lobos também são considerados sagrados para os skordianos. Os lobos são um reflexo do próprio povo skordiano, além de também terem servido como companheiros durante toda a existência do reino. E mesmo após a morte, um lobo continua sendo útil ao povo com sua pele, ossos e carne.</p>
+<p>Os militares de Skord escolhem um lobo quando ainda são jovens (crianças ou adolescentes). Quando o lobo morre, sua pele é transformada em um manto e, se o militar se tornar um oficial, ele recebe o manto de seu lobo em uma cerimônia. Se o soldado morrer, o lobo é levado para uma floresta. O destino do lobo é quase certo: morrer por não pertencer a nenhuma alcateia.</p>
+<p>Outra tradição de Skord é em relação aos seus sobrenomes. É muito comum que os skordianos carreguem o nome do pai ou da mãe seguido pelo sufixo “son” ou “dottir” (filho e filha na língua gigante) como seus sobrenomes. Homens carregam o nome do pai, enquanto as mulheres, a da mãe. No entanto, em situações específicas (como o exílio do parente ou abandono), tanto o nome do pai quanto o da mãe podem ser usados por ambos. Não há qualquer preconceito com mulheres que usem o nome do pai ou homens que usem o da mãe como sobrenome em Skord. (exemplos de nomes: Sigvar, filho de Thorstein, utiliza o sobrenome Thorsteinson. Eir, filha de Hervor, utiliza o sobrenome Hervordottir.)
+<br></p>
+<h3 id="carater">Caráter:</h3>
+<p>É fácil para um forasteiro deduzir que o povo skordiano é bárbaro, o que não é uma completa mentira. Contudo, esse povo está longe de ser os selvagens que muitos acreditam que são. Skord é lar de um povo forte e corajoso, que lutou por milênios para viver mais um dia, sem jamais abandonar seus costumes mais antigos. Os skordianos valorizam seus antepassados e seus costumes mais antigos. Também são desconfiados de forasteiros, mas apenas por terem sofrido muito nas mãos de invasores.
+<br></p>
+<h1 id="economia">Economia</h1>
+<p>Em muitas regiões, a terra de Skord não é apropriada para o cultivo. O povo acaba vivendo da pesca e da agropecuária, e em alguns casos, de pilhagens em regiões mais ao sul. Os piratas de Skord também são bem conhecidos em algumas regiões, temidos bastante na costa leste do continente.
+<br></p>
+<h1 id="governo">Governo</h1>
+<p>O Rei é aquele que governa as terras gélidas de Skord, mas seu título não é passado hereditariamente. O rei skordiano, ao fim de sua vida, convoca os senhores de sua terra para que enviem seus campeões ao Templo de Uppsala (um templo distante ao norte, nas montanhas), onde cada um irá derramar seu sangue na madeira de uma árvore sagrado, o Freixo dos Reis e irá pendurar um objeto de valor em seus galhos. Cada um desses campeões, seja o filho de um jarl, um soldado ou pescador, se colocará em uma missão perigosa (que pode ser declarada ou não qual será) para se provar digno do trono de Skord. A decisão de quem assumirá o trono, no entanto, não é feita pelo rei, mas sim pelo Freixo dos Reis no Templo de Uppsala. A árvore irá sangrar em cima do objeto do próximo rei de Skord, indicando que ele foi digno de trono através de sua missão.
+<br></p>
+<h3 id="poderio-militar">Poderio Militar:</h3>
+<p>Skord não possui nenhuma muralha que os separe do sul. Ao invés disso, a região fronteiriça é vigiada por patrulheiros que se espreitam por florestas e montanhas, sempre acompanhados de lobos treinados.</p>
+<p>Os skordianos são conhecidos por possuírem o machado como arma preferida e também por serem ótimos marinheiros. A frota naval de Skord é poderosa.
+<br></p>
+<h1 id="conflito">Conflito</h1>
+<p>Um dos maiores perigos da região é a própria natureza. Skord não é lugar agradável com seu clima, com suas feras (como lobos gigantes, dragões brancos e um Megatron congelado), com sua terra majoritariamente infértil por milênios de guerra constante e por seus próprios habitantes, que mesmo estando em paz, rapidamente encontram um motivo para travar pequenas batalhas entre si. O povo da região costuma ser rápido em desconfiar de forasteiros sulistas (o que não significa que são imediatamente hostis), especialmente aqueles que aparentam ser de Ascalon. 
+<br></p>
+<h1 id="organizacoes-relevantes">Organizações Relevantes</h1>
+<p><strong>Selvagens Ulver:</strong> A maioria dos povos de Skord decidiu seguir Cregan na unificação da região, no entanto, houveram aqueles que continuaram a se opor à aliança. Rechaçados ao longo dos séculos, os Ulver se separaram em pequenas tribos e se isolaram nas montanhas. Os Ulver frequentemente atacam vilarejos e viajantes nas estradas de Skord.
+<br></p>
+<h1 id="locais-relevantes">Locais Relevantes</h1>
+<p><br></p>
+<h1 id="npcs-relevantes">NPCs Relevantes</h1>
+<p><a href="../../../img/54851c8aa50935fe1b3e0532ee31c440.png">unknown (87).png</a> |Rainha Eir Hervordottir, a Troca-Peles</p>
+<p><strong>Rainha Eir Hervordottir, a Troca-Peles</strong>: A Rainha Eir é o que os skordianos chamam de troca-peles, pessoas com a capacidade de assumir o aspecto de bestas poderosas. Eir consegue se transformar em um urso gigantesco e, com esse poder, matou o Rei Urso, um criminoso também troca-peles que matou dezenas de skordianos.</p>
+<p><strong>Cregan, o Rei Montanha</strong>: Cregan foi o rei que unificou todas as tribos e consolidou Skord. Também foi um grande estudioso das runas de Sig’hor.</p>
+<p><strong>Brandon, o Vermelho</strong>: Um herói que lutou sua vida para se tornar rei. Brandon esteve presente na Batalha do Sangue Negro e morreu como um herói de guerra. A própria Árvore de Skord sangrou por Brandon, que foi consagrado como o Rei Vermelho mesmo sem jamais ter sentado no trono.</p>
+<p><strong>Rei Harald, o Remador</strong>: O Rei Harald foi um grande herói para Skord, cujo feitos salvaram inúmeras vidas. Seguindo a tradição, o Rei Harald convocou os campeões dos jarl de Skord para competir pelo trono.
+<br></p>
+<h1 id="origem">Origem</h1>
+<p><strong>Primeiro Refúgio (1 ~ 12.000)</strong>
+Os gigantes de gelo foram os primeiros senhores de Skord, um povo nômade que deixou como o único resquício de sua estadia enormes pedras talhadas com runas. Nessa época, os gigantes e os dragões estavam lutando entre si pelo domínio de Pheros, mas as terras de Skord eram um refúgio para ambas as raças. Quando a batalha terminou, os gigantes isolaram-se em cavernas e montanhas distantes, mas muitos também começaram a brigar entre si pelo menor dos recursos. Além de terem sido os primeiros senhores de Skord, os gigantes de gelo também foram os primeiros a derramar sangue nessa terra distante.</p>
+<p><strong>A Conquista (por volta de 13.000)</strong>
+Com o fim das grandes batalhas que consumiram Pheros, houve a segunda criação de raças. Essas raças, ainda jovens e primitivas, começaram a explorar o mundo ou a submeter-se ao domínio élfico de Elselenor em expansão. Poucos se interessaram por Skord, uma terra fria e distante, dominada por gigantes de gelo e lobos atrozes. Aqueles que decidiram transformar Skord em um lar, no entanto, não recuaram diante da força sobre humana dos titãs. Muitas batalhas foram travadas contra os gigantes, mas os humanos passaram a conhecer aquela terra e as bestas que a habitavam. Tornaram-se companheiros dos lobos e do inverno, aprenderam a como batalhar contra a força dos gigantes, e então foram capazes de tomar o lugar para si. Os gigantes de gelo, cansados por milênios de guerra, recuaram para qualquer canto em que pudessem se isolar, abandonando de vez a terra gélida de Skord.</p>
+<p><strong>Os Primeiros Reis (13.000 ~ 23.000)</strong>
+Os primeiros reis skordianos não eram muito mais do que senhores de guerra bárbaros. Com os gigantes derrotados, cada homem decidiu tomar um pedaço da terra para si, e os mais fortes foram acompanhados de muitos outros guerreiros. Na maioria dos casos, os reis skordianos viviam isolados em terras que proclamavam ser suas, aventurando-se em regiões distantes apenas quando precisavam de recursos. Os poucos relatos que existem dessa época estão talhados em pedras rúnicas escritas pelos últimos gigantes de gelo remanescente em Skord, que escreviam apenas o pouco que compreendiam.</p>
+<p><strong>A Tempestade (por volta de 23.000)</strong>Houve uma época sombria em Skord em que, de acordo com relatos antigos, a tempestade se descontrolou e começou a consumir a região. Vilas foram destruídas pela chuva ou por relâmpagos, e os reis ficaram sem saber o que fazer. Apenas um dos antigos reis skordianos buscou entender o motivo da raiva da tempestade: Cregan, o Rei Montanha. Cregan buscou entender as runas de Sig’hor encontradas em ruínas ancestrais dos gigantes, e eventualmente descobriu o que estava causando a tempestade e uma maneira de acalmá-la. O lendário gigante, conhecido como o Rei da Tempestade, estava insano em sua fortaleza nas montanhas, e precisava ser derrotado para a tempestade se acalmar indefinidamente.</p>
+<p>Cregan viajou com seus guerreiros e visitou cada rei conhecido de Skord para apresentar uma maneira de parar a tempestade. Ele pararia a tempestade para cada povo com a condição de que fosse aceito como o único rei de Skord, e que homens fossem enviados com ele para derrotar o Rei da Tempestade. A maioria dos antigos reis recusaram a oferta e foram hostis a Cregan, mas não podiam derrotá-lo, pois Cregan sabia como invocar o nome da tempestade e, por isso, era invencível. Quando finalmente fez cada rei se ajoelhar, Cregan partiu para enfrentar o Rei da Tempestade.</p>
+<p>Apesar da companhia de seus homens, eles não foram capazes de seguir Cregan até o fim da jornada. O Rei Montanha enfrentou sozinho o Rei da Tempestade, mas saiu vitorioso e foi capaz de acalmar a tempestade que consumia Skord. Com a derrota do Rei da Tempestade e a unificação de Skord, os antigos povos começaram a cooperar pela primeira vez para construir um novo lar.</p>
+<p><strong>Os Futuros Reis de Skord (por volta de 23.000)</strong>
+Houve um longo período de paz em Skord após a vitória de Cregan, o Rei Montanha. A capital de Skord começou a ser construída e foi onde Cregan se estabeleceu. Os skordianos começaram a estudar as runas que Cregan descobriu, mas ninguém foi capaz de compreendê-la da mesma maneira que o rei as entendia. O Rei Montanha envelheceu e percebeu que não poderia governar por muito mais tempo, então proclamou que sua posição não seria hereditária, mas que um campeão seria escolhido por cada um dos jarl de Skord. Os campeões aceitariam missões perigosas para se mostrarem dignos do trono. Skord seria governado por um rei forte e digno, não importando de quem fosse filho. Alguns jarl deram preferência aos seus filhos mais fortes, enquanto outros escolheram campeões locais, mas todos seguiram e respeitaram a decisão de Cregan. Até os dias atuais, Skord escolhe seus reis desta maneira.</p>
+<p><strong>Primeira Era: Marcha Áurea (de 1.203 à 1.288)</strong>
+Skord consolidou-se como nação ao longo dos milênios. Muitas batalhas foram travadas contra invasores ou monstros, mas os skordianos sempre prevaleceram. A guerra mais sangrenta que Skord enfrentou foi contra Ascalon e sua Marcha Áurea feita por um Pontífice insano.</p>
+<p>Os ascalonitas invadiram Skord e conquistaram vilas e cidades para impor seus costumes. A própria capital construída por Cregan e seus homens foi conquistada durante essa guerra, mas houve uma longa resistência por parte dos skordianos. Os ascalonitas também sofreram com uma campanha de guerra tão longa. Ser mandado para lutar em Skord era como uma sentença de morte. Os skordianos, conhecedores de seu próprio terreno e acostumados com o frio intenso da região, infernizaram os ascalonitas por anos.</p>
+<p>A guerra durou quase um século e esgotou o exército ascalonita. O Pontífice insano que declarou essa Marcha Áurea e o rei que a acatou haviam falecido antes mesmo de contemplar o fim da guerra. Quando ficou claro que a Marcha Áurea havia perdido seu significado nessa guerra, os ascalonitas recuaram. Desde então, os skordianos nunca esqueceram esse cruel período.</p>
+<p><strong>Primeira Era: Dias de Tormenta</strong>
+Ascalon havia recuado para sua terra e os skordianos tentavam se recompor e reconstruir seu lar. Apenas alguns mais tarde, iniciou-se os Dias de Tormenta com muitos demônios invadindo Pheros através de uma fenda abissal. Por estarem tão longe ao norte, os skordianos presenciaram muito pouco do conflito contra os demônios, mas também precisaram lutar.</p>
+<p>O rei daquela época já era um homem velho e com pouca força restante, então logo ergueram-se novos campeões almejando o trono. Um desses campeões foi Brandon, o Vermelho, um herói bárbaro que se aventurou ao sul e tomou como missão fechar a fenda demoníaca. A campanha de Brandon foi duradoura, e ele realmente esteve presente na Batalha do Sangue Negro, mas jamais se tornou rei. Brandon, o Vermelho, morreu na batalha final para fechar a fenda em um enorme sacrifício que salvou centenas de vidas. Para Brandon, um verdadeiro rei lutava e morria pelo seu povo, e seus camaradas de guerra eram mais do que dignos de seu sacrifício. Tal sacrifício foi reconhecido pelos próprios galhos da Freixo dos Reis. Mesmo após sua morte, Brandon foi eternizado como O Rei Vermelho.</p>
+<p><strong>Segunda Era</strong>
+A antiga tradição skordiana perdura na terra, mesmo após tantos séculos terem se passado. Com a recente morte do Rei Harald Thorsson, o Remador, novos campeões surgiram para alcançar o trono de Skord. Eir Hervordottir, a Troca-Peles, tornou-se a rainha de Skord após a morte do Rei Harald.
+<br></p>
+<h1 id="acontecimentos">Acontecimentos</h1>
+<p><br></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "navigation.path", "navigation.indexes", "navigation.prune"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

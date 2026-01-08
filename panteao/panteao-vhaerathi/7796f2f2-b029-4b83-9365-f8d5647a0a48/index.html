@@ -1,0 +1,1700 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../5f008f98-1fca-4a87-8718-ce044b3f1a9e/">
+      
+      
+        <link rel="next" href="../b9998353-4390-4d83-93cc-73f3f47161de/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Arachne - Pheros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arachne" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Pheros" class="md-header__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pheros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Arachne
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Pheros" class="md-nav__button md-logo" aria-label="Pheros" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Pheros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pheros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../classes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../compendio-do-jogador/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compendio do jogador
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../extra/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../mundo/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mundo
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Panteao
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-Erio/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    panteao Erio
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-berg-oir/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao berg oir
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-dovahoss/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao dovahoss
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-jotun/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao jotun
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-sylwari/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao sylwari
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../panteao-ushtarak-gijak/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao ushtarak gijak
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panteao vhaerathi
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Panteao vhaerathi
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5969e43d-ba1e-40a9-89eb-277303f83e18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Felandaris
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5f008f98-1fca-4a87-8718-ce044b3f1a9e/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sulahn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arachne
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../b9998353-4390-4d83-93cc-73f3f47161de/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merven
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../profissoes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profissoes
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../racas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Racas
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../regras/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Determine title -->
+
+
+
+<!-- Table of contents -->
+<nav class="md-nav md-nav--secondary" aria-label="Índice">    
+    
+        <div style="padding: 0.6rem; font-size: 0.7rem; border-bottom: 1px solid var(--md-default-fg-color--lightest)">
+            <img src='../../../img/50bb75fd5310e92b8df2f6dea8b8df8f.jpg' style='max-width: 100%' alt=''>
+<h3><div style="text-align:center;">Arachne</div></h3>
+<div style="text-align:center;">Deusa Maior</div>
+<div style="text-align:center;">Elfos Sombrios, Assassinos, Aranhas e Caos</div>
+<div style="text-align:center;">Caótica e Má</div>
+<hr>
+<strong>Títulos</strong><br>
+<div style="text-align:left;">A Rainha Aranha</div>
+<div style="text-align:left;">A Traidora</div>
+<div style="text-align:left;">Matrona Sombria</div><br><br><div style="text-align:left;"><strong>Plano de Dôminio</strong></div>
+<div style="text-align:left;">Abismo, Poço de Teias</div>
+                      
+        </div>
+                
+  
+
+  <!--
+    Check whether the content starts with a level 1 headline. If it does, the
+    top-level anchor must be skipped, since it would be redundant to the link
+    to the current page that is located just above the anchor. Therefore we
+    directly continue with the children of the anchor.
+  -->
+  
+  
+    
+  
+
+  <!-- Table of contents title and list -->
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Pheros
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Panteao
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Panteao vhaerathi
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Arachne" src="../../../img/e3c4b40fcb0cdd2f34e1da93580c536b.jpg" /></p>
+<h1 id="arachne">Arachne</h1>
+<h1 id="descricao">Descrição</h1>
+<p><br></p>
+<h3 id="breve-descricao">Breve Descrição</h3>
+<p>No passado, Arachne foi uma das belas criações de <a href="../../panteao-sylwari/6932c1e2-cf6d-43e8-a16c-18156c642e10/">Elros</a>, originada através de uma canção que ansiava esperança. Surgiu ao mesmo tempo de sua irmã, <a href="../../../extra/04633a6b-bd62-4b9a-b0a2-148cbc7f32b5/">Leshay</a>, e por algum momento, Arachne foi boa. Seu amor, contudo, foi definhando e se tornando inveja conforme sua irmã era destacada como uma primogênita e merecedora de todas as valias. A inveja se tornou ódio, e o ódio, veneno. Arachne não é conhecida apenas como a deusa que perdeu seu nome e se desatrelou da Liraminya, a melodia élfica, mas também como a grande traidora de seu povo, aquela que enganou sua própria irmã e a induziu para a morte. A traição de Arachne resultou em seu exílio e em sua ascensão como a Rainha Aranha que sucumbiu aos próprios sussurros.
+<br></p>
+<h3 id="fisica">Física</h3>
+<p>Arachne é, aos mais diversos olhos, o aspecto belo de uma deusa élfica. Seus cabelos brancos, destacados em sua pele escura como obsidiana, atraem o olhar daqueles que tentam desviar de seus olhos vermelhos que tanto ambicionam loucura. Sempre vestida em trajes negros, Arachne é a personificação de sua própria escuridão. Em momentos mais caóticos, talvez alguém tenha tido a sorte de presenciar seu aspecto mais puro e maligno e ter sobrevivido… ou talvez, o azar de não ter terminado a loucura de viver com tal lembrança. Arachne personifica uma terrível criatura aracnídea fundida com seu torso, forte e aberrante, longe de qualquer beleza que possa provocar.
+<br></p>
+<h3 id="simbolo">Símbolo</h3>
+<p>Uma aranha.
+<br></p>
+<h3 id="personalidade">Personalidade</h3>
+<p>Ao tecer as teias para a traição de sua irmã, Arachne mudou de uma forma que enganou a si mesma, pois uma falsa esperança de ser adorada com a morte da irmã residia de alguma forma em seu coração. A bondade e amor pelos seus semelhantes se tornou tão falso que envenenou os que ainda estavam ao seu lado, destinando-os ao exílio junto da deusa. Arachne foi envenenada por seus próprios pensamentos e, a partir disso, passou a guardar as mágoas nas profundezas de seu coração. Alguns elfos acreditam fielmente que Arachne não guarda apenas as próprias mágoas, mas também as daqueles que envenenou em eras imemoriais e os que vieram depois, e que estes sentimentos são convertidos em inveja e ódio.
+<br></p>
+<h1 id="capacidades-divinas">Capacidades Divinas</h1>
+<p>O veneno que infectou os semelhantes de Arachne em sua conspiração age como uma canção na presença da deusa. Qualquer um que esteja sequer próximo de seu covil ou de artefatos tocados pela deusa, são capazes de ouvir uma suave melodia. Essa canção incita loucura dentro de cada ser e, por quanto mais tempo é ouvida, mais a criatura se aprofunda nos sussurros e menos deseja abandoná-los. Cercada por loucura, teias de aranha e veneno, Arachne não é de forma alguma ‘’alcançável’’. E mesmo aquelas que se prontificam a alcançá-la contemplam sua própria vontade esvaída diante da presença de Arachne, que ainda é capaz de assumir um terrível aspecto de força bruta.
+<br></p>
+<h1 id="no-mundo">No mundo</h1>
+<h3 id="o-que-faz">O que faz</h3>
+<p>A presença de Arachne nos locais mais escuros do mundo é incontestável. Seu sussurro ecoa pela cabeça daqueles que envenenou com sua canção, incitando-os a servi-la. A deusa instrui suas sacerdotisas em rituais profanos e sacrifícios, além de dar-lhes sua bênção para que governem absolutas em uma sociedade matriarcal no subterrâneo. Aos que falham em seus testes, Arachne pune com as mais terríveis maldições.
+<br></p>
+<h3 id="plano-de-dominio">Plano de Domínio</h3>
+<p>Quando decaiu da canção élfica, Arachne buscou refúgio nas profundezas do Abismo. Os elfos que foram infectados por sua loucura prontamente a seguiram. Arachne construiu seu covil no Fosso de Teias e é lá que continua suas conspirações.
+<br></p>
+<h3 id="locais-ligados-a-fe">Locais Ligados a Fé</h3>
+<p>Além da sociedade drow, Arachne também é venerada por outros seres do subterrâneo. Sendo os elfos sombrios os principais seguidores de Arachne, seus templos são facilmente encontrados em suas cidades nas Estradas Subterrâneas.
+<br></p>
+<h3 id="cultura">Cultura</h3>
+<p>Por tutela de Arachne, é comum que os elfos sombrios eliminem os fracos em sua sociedade. Desta forma, Arachne impede o surgimento de outros ideais que vão contra sua vontade. As sacerdotisas e outras fêmeas drow, instruídas pelos sussurros de Arachne, governam essa sociedade élfica com punho de ferro. Por mais que o objetivo de Arachne seja manter controle absoluto sobre os elfos sombrios, essa é uma tarefa verdadeiramente difícil, pois os drows não nascem malignos, mas sim são corrompidos pela sociedade em que vivem.
+<br></p>
+<h3 id="lendas">Lendas</h3>
+<p>Quando Arachne envenenou os poucos elfos que a seguiam, criou os primeiros drows por acaso. Esses, fiéis a sua amada, seguiram-na em seu exílio. Por eras, esses elfos serviram Arachne com toda sua lealdade, mas, o tempo apenas serviu para mostrar que mesmo os drows podem carregar bondade em seu coração. Um desses elfos, <a href="../b9998353-4390-4d83-93cc-73f3f47161de/">Merven</a>, ainda era capaz de ouvir a canção daqueles que permitiram sua existência e, lentamente, essa melodia sobrepujou a loucura de Arachne. Foi nesse momento em que Merven traiu a Rainha Aranha e fugiu do Fosso de Teia, pois a bondade ainda ardia em seu coração e a esperança de liberdade era um sonho que almejava para todos os seus irmãos.
+<br></p>
+<h1 id="origem">Origem</h1>
+<p>Foi uma canção em busca de esperança que moldou tanto Arachne, que originalmente possuía outro nome, quanto sua irmã Leshay. Quando os feéricos fugiram da guerra que ameaçava consumi-los, em uma tentativa de buscar esperança, deram início a canção élfica chamada Liraminya que criou Elros e que consequentemente também criou Arachne a partir da melodia de Elros. Seu nome, um mistério para todo e qualquer ser, é conhecido apenas por Elros, por <a href="../../panteao-Erio/56b2a833-1e5f-4910-b889-0cd13d410d2d/">Primus</a> (que nunca esquece) e pela própria Arachne, que o guarda nas profundezas de seu coração sem jamais poder sequer sussurrá-lo. Quando Arachne traiu Leshay e eventualmente foi descoberta em sua trama, o exílio pareceu misericórdia para com a deusa. Aclamada pela escuridão, Arachne distorceu sua própria aparência com suas mentiras, assim como a dos elfos que a acompanhavam. Seu cabelo, outrora de fios dourados como o sol, se tornaram brancos e sem vida, sua pele foi tomada pela escuridão de suas mentiras e seus olhos para sempre refletiam o sangue derramado de sua irmã.
+<br></p>
+<h1 id="relacoes">Relações</h1>
+<p><br></p>
+<h3 id="inimizadesaliancas">Inimizades/Alianças</h3>
+<p><strong>Panteão Sylwari</strong>: A inveja de Arachne pelos sylwari cruzou eras sem jamais reduzir-se. A Rainha Aranha odeia todos os elfos e seus deuses, mas seu ódio é muito mais profundo por Elros, pois ele teve piedade dela. </p>
+<p><strong>Panteão Ushtarak’Gijak:</strong> O ódio de Arachne contra os ushtarak’gijak é imenso, principalmente por ter sido um deles, mais especificamente <a href="../../panteao-ushtarak-gijak/2c083c3b-00fb-41dd-ab70-5e22f99fd673/">Malk'Uruk</a>, que a incitou a trair e matar sua irmã.</p>
+<p><strong><a href="../5f008f98-1fca-4a87-8718-ce044b3f1a9e/">Sulahn</a> e <a href="../b9998353-4390-4d83-93cc-73f3f47161de/">Merven</a>:</strong> Sulahn foi a responsável por criar uma nova canção para os elfos sombrios, livrando-os da loucura de Arachne. Ao ouvir o chamado de sua irmã, Merven fugiu das garras de Arachne e passou a levantar armas contra ela. Arachne constantemente caça a ambos por serem uma ameaça aos seus objetivos.</p>
+<p><strong><a href="../5969e43d-ba1e-40a9-89eb-277303f83e18/">Felandaris</a>:</strong> Felandaris é o favorito de Arachne, seu inquisidor e mais leal servo. Arachne sempre o compensa por seus esforços, mas no fundo, ele é apenas mais uma arma para ela.
+<br></p>
+<h3 id="organizacoes">Organizações</h3>
+<p><strong>Ordem de Myrlochar</strong>: Os guerreiros de elite da sociedade drow são compostos inteiramente por machos que servem diretamente a Matrona de cada cidade élfica. São chamados ‘’Inquisidores’’ e agem de acordo com as palavras da Matrona e os ensinamentos de Arachne. Esses inquisidores se espelham nas atitudes de Felandaris.<br></p>
+<p><strong>O Conselho das Aranhas:</strong> Um grupo de matriarcas antigas que regem a cidade de <a href="../../../mundo/estradas-subterraneas/ae8d235c-aad4-4bae-8032-aae5163b8bfa/">Raegnest</a> nas profundezas das Estradas Subterrâneas.
+<br></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "navigation.path", "navigation.indexes", "navigation.prune"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
